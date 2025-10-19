@@ -93,7 +93,7 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(state)
 	if state == Enum.TeleportState.Started then
 		-- Auto re-run script di server baru
 		queue_on_teleport([[
-			loadstring(game:HttpGet("https://pastebin.com/raw/XXXXXXXX"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/caywzzajapls/scriptlua/refs/heads/main/bloxfruit.lua"))()
 		]])
 	end
 end)
